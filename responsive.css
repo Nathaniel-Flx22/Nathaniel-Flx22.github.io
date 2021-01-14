@@ -1,0 +1,131 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .images {
+    padding: 30px;
+    float: left;
+    width: 39%;
+  }
+  .images-list{
+    float: none;
+    display: inline-block;
+    flex-direction: row;
+    
+  }
+  .body{
+    height: 1300px;
+  }
+  
+  }
+  
+  /* Untuk Smartphone */
+  @media all and (max-width: 607px) {
+    
+    /* header */
+    header {
+      height: 70px;
+    }
+    
+      .header-logo  {
+      padding: 15px 10px;
+     
+    }
+    
+    .list{
+      display:none;
+    }
+    
+    
+    .logo-shop{
+      display:none;
+    }
+  
+    .header-right{
+      display:none;
+    }
+    
+  
+    .menu-icon{
+      display:block;
+      padding-right: 10px;
+    }
+    /*batas header*/
+    
+    /*main*/
+    
+    .main {
+      margin: auto;
+  }
+  
+  .heading {
+      padding: 150px 0px 130px 70px;
+      
+  }
+  
+  .heading img{
+  display: none;
+  }
+  
+  .heading h1 {
+      font-size: 40px;
+  }
+  
+  .box {
+      width: 80%;
+      height: 75%;
+      left: 10%;
+  
+  }
+  
+  /* batas main*/
+  /*body*/
+    
+    footer{
+      text-align: center;
+    }
+    
+   button{
+  
+        padding:15px;
+        font-size:10px;
+        margin-bottom: 30px;
+    }
+       input{
+        height: 35px;
+        
+    }
+    
+    .container h3 {
+      font-size:10px;
+      
+    }
+    
+      .form{
+      padding-top: 5px;
+      font-size: 10px;
+      text-align:center;
+    }
+      .form h2{
+    font-size:15px;
+  }
+    .form p{
+    font-size:12px;
+  }
+  
+  .sosmed{
+    text-align:center;
+  }
+  
+  .sosmed i{
+    padding-right: 0px;
+  }
+   
+   .images-list{
+    padding-left: 30px;
+    flex-direction: column;
+    
+  } 
+  
+  .body{
+    height: 2000px;
+  }
+  }
